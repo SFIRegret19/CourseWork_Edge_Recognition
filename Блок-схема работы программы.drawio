@@ -1,0 +1,224 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Страница — 1" id="gceeGKnQ26LTx4xGw162">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-1" target="aagC_CGy_tk9IiCS-DWR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-2" target="aagC_CGy_tk9IiCS-DWR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-2" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ввод: Путь к изображению (imagePath)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-4" target="aagC_CGy_tk9IiCS-DWR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-4" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Загрузить изображение (image) по imagePath в полутоновом формате (cv::imread, IMREAD_GRAYSCALE)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-6" target="aagC_CGy_tk9IiCS-DWR-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="75" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-6" target="aagC_CGy_tk9IiCS-DWR-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-6" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Изображение загружено (image.empty() == false)?&lt;/font&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-8" target="aagC_CGy_tk9IiCS-DWR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-8" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Вывод: &quot;Ошибка загрузки изображения&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry y="410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-10" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Конец&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="505" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-12" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-13" target="aagC_CGy_tk9IiCS-DWR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-13" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Преобразовать исходное изображение (image) в цветной формат (resultImage) для отображения результатов (cv::cvtColor)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-16" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-17" target="aagC_CGy_tk9IiCS-DWR-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="600" />
+              <mxPoint x="240" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-17" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Предобработка: Применить медианный фильтр к &#39;image&#39; (ядро 7x7), результат в &#39;blurredImage&#39; (cv::medianBlur)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="505" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-19" target="aagC_CGy_tk9IiCS-DWR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-19" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Детектирование границ: Применить детектор Кенни к &#39;blurredImage&#39; (пороги 20, 60), результат в &#39;edges&#39; (cv::Canny)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="630" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-21" target="aagC_CGy_tk9IiCS-DWR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-21" value="&lt;span style=&quot;box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-style: solid; border-width: 0.8px; border-image: none 100% / 1 / 0 stretch; border-radius: 3px; font-size: 13px; padding: 0px 3px; display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; color: rgb(26, 28, 30); text-align: left;&quot; class=&quot;inline-code ng-star-inserted&quot;&gt;Морфологическая обработка &#39;edges&#39;:&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(26, 28, 30); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot; class=&quot;ng-star-inserted&quot;&gt;&lt;span style=&quot;box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-style: solid; border-width: 0.8px; border-image: none 100% / 1 / 0 stretch; border-radius: 3px; font-size: 13px; padding: 0px 3px; display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; color: rgb(26, 28, 30); text-align: left;&quot; class=&quot;inline-code ng-star-inserted&quot;&gt;1. Дилатация (ядро 3x3, 1 итерация) (cv::dilate)&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; color: rgb(26, 28, 30); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot; class=&quot;ng-star-inserted&quot;&gt;&lt;span style=&quot;box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-style: solid; border-width: 0.8px; border-image: none 100% / 1 / 0 stretch; border-radius: 3px; font-size: 13px; padding: 0px 3px; display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; color: rgb(26, 28, 30); text-align: left;&quot; class=&quot;inline-code ng-star-inserted&quot;&gt;2. Открытие (ядро 3x3, 1 итерация) (cv::morphologyEx, MORPH_OPEN)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="730" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-23" target="aagC_CGy_tk9IiCS-DWR-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-23" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Поиск контуров: Найти внешние контуры на &#39;edges&#39;, результат в &#39;contours&#39; (cv::findContours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="870" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-25" target="aagC_CGy_tk9IiCS-DWR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-25" value="&lt;span style=&quot;box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255); border-color: rgb(255, 255, 255); border-style: solid; border-width: 0.8px; border-image: none 100% / 1 / 0 stretch; border-radius: 3px; font-size: 13px; padding: 0px 3px; display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; color: rgb(26, 28, 30); text-align: left;&quot; class=&quot;inline-code ng-star-inserted&quot;&gt;Вывод: &quot;Найдено N контуров&quot;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; color: rgb(26, 28, 30); font-family: &amp;quot;Google Sans Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot; class=&quot;ng-star-inserted&quot;&gt;&amp;nbsp;(где N = contours.size())&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="990" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-27" target="aagC_CGy_tk9IiCS-DWR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-27" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Для каждого контура &#39;currentContour&#39; из &#39;contours&#39; (инициализация цикла, i = 0)&lt;/span&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1080" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-29" target="aagC_CGy_tk9IiCS-DWR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-29" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Вычислить площадь &#39;area&#39; контура &#39;currentContour&#39; (cv::contourArea)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-31" target="aagC_CGy_tk9IiCS-DWR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-31" target="aagC_CGy_tk9IiCS-DWR-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1300" />
+              <mxPoint x="120" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-31" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;area &amp;gt;= 500?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1260" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-33" target="aagC_CGy_tk9IiCS-DWR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-33" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Вычислить периметр &#39;perimeter&#39; контура &#39;currentContour&#39; (cv::arcLength)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1370" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-35" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-36" target="aagC_CGy_tk9IiCS-DWR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-36" target="aagC_CGy_tk9IiCS-DWR-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1500" />
+              <mxPoint x="360" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-36" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;perimeter &amp;gt; 0?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1460" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-38" target="aagC_CGy_tk9IiCS-DWR-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-38" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Аппроксимировать &#39;currentContour&#39; в &#39;approxPoly&#39; (epsilon = 0.01 * perimeter) (cv::approxPolyDP)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1570" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-40" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1540" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-41" target="aagC_CGy_tk9IiCS-DWR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-41" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Определить тип фигуры &#39;shape&#39; по &#39;approxPoly&#39; (вызов функции getShapeType)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1670" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-43" target="aagC_CGy_tk9IiCS-DWR-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-43" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Вывод: &quot;Контур #i: тип=&#39;shape&#39;, площадь=&#39;area&#39;&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1770" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-46" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1273" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-48" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="312" y="1473" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-49" target="aagC_CGy_tk9IiCS-DWR-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-49" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Отрисовать &#39;currentContour&#39; (зеленый, толщина 4) и текст &#39;shape&#39; (красный, позиция по центру масс) на &#39;resultImage&#39; (cv::drawContours, cv::moments, cv::putText)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1850" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-51" target="aagC_CGy_tk9IiCS-DWR-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="2030" />
+              <mxPoint x="80" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-51" target="aagC_CGy_tk9IiCS-DWR-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-51" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Перейти к следующему контуру (i++) / Все контуры обработаны?&lt;/span&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1990" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-54" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2000" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-55" target="aagC_CGy_tk9IiCS-DWR-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-55" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Отобразить &#39;resultImage&#39; (масштабированное) в окне &quot;4. Detected Shapes&quot; (cv::imshow, getScaledDisplayImage)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2100" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-57" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2070" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-58" target="aagC_CGy_tk9IiCS-DWR-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-58" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ожидать нажатия клавиши (cv::waitKey)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aagC_CGy_tk9IiCS-DWR-59" target="aagC_CGy_tk9IiCS-DWR-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-59" value="&lt;span style=&quot;color: rgb(26, 28, 30); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Закрыть все окна (cv::destroyAllWindows)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2290" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aagC_CGy_tk9IiCS-DWR-63" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2380" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
